@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="arrow_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow-16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow-161.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="error_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\error-128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDS_ABOUT_ITEM_NAME" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="IDS_ABOUT_ITEM_TOOLTIP" xml:space="preserve">
+    <value>About Sunglass</value>
+  </data>
+  <data name="IDS_BTN_CANCEL_CAPTION" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="IDS_BTN_CREATE_CAPTION" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="IDS_BTN_LOGIN_CAPTION" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="IDS_BTN_NO_CAPTION" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="IDS_BTN_OK_CAPTION" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="IDS_BTN_SYNC_CAPTION" xml:space="preserve">
+    <value>Sync</value>
+  </data>
+  <data name="IDS_BTN_YES_CAPTION" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="IDS_DLG_ABOUT_BODY" xml:space="preserve">
+    <value>Copyright 2012 Design Tata Technologies Limited. All Rights Reserved.
+Sunglass for Catia is a Sunglass&lt;link&gt; project
+Sunglass Terms of User&lt;link&gt;</value>
+  </data>
+  <data name="IDS_DLG_ABOUT_CAPTION" xml:space="preserve">
+    <value>About {0}</value>
+  </data>
+  <data name="IDS_DLG_ABOUT_DESCRIPTION" xml:space="preserve">
+    <value>Version {0}</value>
+  </data>
+  <data name="IDS_DLG_ERROR_CAPTION" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="IDS_DLG_ERROR_HEADER" xml:space="preserve">
+    <value>Project Error</value>
+  </data>
+  <data name="IDS_DLG_FIRST_PUSH_BODY" xml:space="preserve">
+    <value>Sunglass was unable to find a project associated with this model. Would you like to create a new Project for this 
+
+model or add it to an existing Project.</value>
+  </data>
+  <data name="IDS_DLG_FIRST_PUSH_HEADER" xml:space="preserve">
+    <value>Push Project</value>
+  </data>
+  <data name="IDS_DLG_FIRST_PUSH_SUB_HEADER" xml:space="preserve">
+    <value>Push Project updates to Sunglass</value>
+  </data>
+  <data name="IDS_DLG_LOGIN_DESCRIPTION" xml:space="preserve">
+    <value>Login Successful</value>
+  </data>
+  <data name="IDS_DLG_LOGIN_HEADER" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="IDS_DLG_LOGIN_SUB_HEADER" xml:space="preserve">
+    <value>Login to Sunglass</value>
+  </data>
+  <data name="IDS_DLG_LOGIN_WELCOME" xml:space="preserve">
+    <value>Welcome to Sunglass</value>
+  </data>
+  <data name="IDS_DLG_MSG_BODY" xml:space="preserve">
+    <value>This project aims to Aenean commodo ligula eget dolor.
+Aenean massa. Cum sociis natoque penatibus et magnis dis
+parturient montes, nascetur ridiculus mus. Donec quam felis,
+ultricies nec, pellentesque eu, pretium quis, sem.</value>
+  </data>
+  <data name="IDS_DLG_NEW_PROJECT_DESCRIPTION_LABEL" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="IDS_DLG_NEW_PROJECT_DESCRIPTION_PLACEHOLDER" xml:space="preserve">
+    <value>(Optional) add a project description</value>
+  </data>
+  <data name="IDS_DLG_NEW_PROJECT_HEADER" xml:space="preserve">
+    <value>New Project</value>
+  </data>
+  <data name="IDS_DLG_NEW_PROJECT_SUMMARY_LABEL" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="IDS_DLG_NEW_PROJECT_SUMMARY_PLACEHOLDER" xml:space="preserve">
+    <value>Choose a name for the Project</value>
+  </data>
+  <data name="IDS_DLG_NEW_PROJEСT_SUB_HEADER" xml:space="preserve">
+    <value>Create a new Sunglass Project</value>
+  </data>
+  <data name="IDS_DLG_PROJECTS_PULL_HEADER" xml:space="preserve">
+    <value>Pull Project</value>
+  </data>
+  <data name="IDS_DLG_PROJECTS_PULL_SUB_HEADER" xml:space="preserve">
+    <value>Choose a Project to pull from Sunglass</value>
+  </data>
+  <data name="IDS_DLG_PROJECTS_PUSH_HEADER" xml:space="preserve">
+    <value>Push Project</value>
+  </data>
+  <data name="IDS_DLG_PROJECTS_PUSH_SUB_HEADER" xml:space="preserve">
+    <value>Choose Project to push the current model to</value>
+  </data>
+  <data name="IDS_DLG_PROJECT_SYNC_DESCRIPTION_LABEL" xml:space="preserve">
+    <value>Comments:</value>
+  </data>
+  <data name="IDS_DLG_PROJECT_SYNC_DESCRIPTION_PLACEHOLDER" xml:space="preserve">
+    <value>(Optional) any additional comments you wish to add</value>
+  </data>
+  <data name="IDS_DLG_PROJECT_SYNC_HEADER" xml:space="preserve">
+    <value>Push Project</value>
+  </data>
+  <data name="IDS_DLG_PROJECT_SYNC_SUB_HEADER" xml:space="preserve">
+    <value>Push project updates to Sunglass</value>
+  </data>
+  <data name="IDS_DLG_PROJECT_SYNC_SUMMARY_LABEL" xml:space="preserve">
+    <value>Summary:</value>
+  </data>
+  <data name="IDS_DLG_PROJECT_SYNC_SUMMARY_PLACEHOLDER" xml:space="preserve">
+    <value>A brief summary of the changes made</value>
+  </data>
+  <data name="IDS_DLG_PULL_SUCCESSFULL_SUB_HEADER" xml:space="preserve">
+    <value>Project Pull Successful</value>
+  </data>
+  <data name="IDS_DLG_PUSH_WARNING_SUB_HEADER" xml:space="preserve">
+    <value>Push model</value>
+  </data>
+  <data name="IDS_DLG_SUNGLASS_MAIN_CAPTION" xml:space="preserve">
+    <value>Sunglass</value>
+  </data>
+  <data name="IDS_DLG_SYNC_PROJECT_SUCCESS_BODY" xml:space="preserve">
+    <value>{0} model(s) were created
+{1} model(s) were updated
+{2} models(s) were deleted and removed from {7}
+{3} model(s) were skipped
+{4} space(s) were created
+{5} spaces(s) were updated
+{6} spaces(s) were deleted and removed from {8}</value>
+  </data>
+  <data name="IDS_DLG_SYNC_PROJECT_SUCCESS_HEADER" xml:space="preserve">
+    <value>Project Synced</value>
+  </data>
+  <data name="IDS_DLG_SYNC_PROJECT_SUCCESS_SUB_HEADER" xml:space="preserve">
+    <value>{0} Head updated to the latest version at {1}</value>
+  </data>
+  <data name="IDS_DLG_WARNING_CAPTION" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="IDS_DLG_WARNING_HEADER" xml:space="preserve">
+    <value>Sunglass Warning</value>
+  </data>
+  <data name="IDS_ERR_LOGIN_FAIL" xml:space="preserve">
+    <value>Failed to login</value>
+  </data>
+  <data name="IDS_ERR_NEW_PROJECT_CREATE_FAIL" xml:space="preserve">
+    <value>Failed to create new project</value>
+  </data>
+  <data name="IDS_ERR_PROCESS_EXCEPTION" xml:space="preserve">
+    <value>Process Exception</value>
+  </data>
+  <data name="IDS_ERR_PROCESS_INVALID" xml:space="preserve">
+    <value>Invalid process</value>
+  </data>
+  <data name="IDS_ERR_PULL_FAIL" xml:space="preserve">
+    <value>Pull Fail</value>
+  </data>
+  <data name="IDS_ERR_UPLOAD_FAIL" xml:space="preserve">
+    <value>Upload model fail</value>
+  </data>
+  <data name="IDS_MAIN_GROUP_NAME" xml:space="preserve">
+    <value>Sunglass</value>
+  </data>
+  <data name="IDS_MAIN_GROUP_TOOLTIP" xml:space="preserve">
+    <value>Sunglass commands</value>
+  </data>
+  <data name="IDS_MSG_DLL_REG_PROBLEM" xml:space="preserve">
+    <value>There was a problem registering this dll: SWattr is null. \n\"</value>
+  </data>
+  <data name="IDS_MSG_DLL_UNREG_PROBLEM" xml:space="preserve">
+    <value>There was a problem unregistering this dll: </value>
+  </data>
+  <data name="IDS_MSG_FUNC_REG_PROBLEM" xml:space="preserve">
+    <value>There was a problem registering the function: \n\"</value>
+  </data>
+  <data name="IDS_MSG_PROJECT_MISSED" xml:space="preserve">
+    <value>Project associated with this model is no longer available. Would you like to create a new project or add to an existing Project?</value>
+  </data>
+  <data name="IDS_MSG_SAVE_MODEL" xml:space="preserve">
+    <value>Please save the model before calling this command</value>
+  </data>
+  <data name="IDS_PULL_ITEM_HINT" xml:space="preserve">
+    <value>Pulls SolidWorks file from Sunglass server</value>
+  </data>
+  <data name="IDS_PULL_ITEM_NAME" xml:space="preserve">
+    <value>Pull</value>
+  </data>
+  <data name="IDS_PULL_ITEM_TOOLTIP" xml:space="preserve">
+    <value>Pull Model</value>
+  </data>
+  <data name="IDS_PULL_PROCESS_NAME" xml:space="preserve">
+    <value>Pulling model...</value>
+  </data>
+  <data name="IDS_PUSH_ITEM_HINT" xml:space="preserve">
+    <value>Push SolidWorks file to Sunglass server</value>
+  </data>
+  <data name="IDS_PUSH_ITEM_NAME" xml:space="preserve">
+    <value>Push</value>
+  </data>
+  <data name="IDS_PUSH_ITEM_TOOLTIP" xml:space="preserve">
+    <value>Push Model</value>
+  </data>
+  <data name="IDS_PUSH_PROCESS_NAME" xml:space="preserve">
+    <value>Pushing model...</value>
+  </data>
+  <data name="IDS_WRN_VIRTUAL_COMPONENTS_NOT_SUPPORTED" xml:space="preserve">
+    <value>Sunglass add-in detected virtual components in your assembly which are curently not supported. Would you like to proceed?</value>
+  </data>
+  <data name="IDS_WRN_VIRTUAL_COMPS_DETECTED" xml:space="preserve">
+    <value>Virtual components detected</value>
+  </data>
+  <data name="logout_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logout-128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plus_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plus-16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sg_logo_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sg_logo-128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="success_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\success-128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sync_enabled_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sync-enabled-128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warning_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warning-128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
